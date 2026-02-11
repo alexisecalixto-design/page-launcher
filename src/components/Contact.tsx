@@ -2,7 +2,7 @@ import { Phone, MessageCircle, Clock, Heart } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contacto" className="py-20 md:py-28 bg-accent">
+    <section id="contacto" className="pb-0 pt-20 md:pt-28 bg-accent">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-accent-foreground mb-4">
@@ -80,7 +80,7 @@ const Contact = () => {
             href="https://wa.me/527772648784?text=Hola,%20me%20interesa%20una%20propiedad%20en%20Morelos"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-accent-foreground/10 border border-accent-foreground/20 text-accent-foreground px-8 py-4 rounded-xl hover:bg-accent-foreground/20 transition-colors font-medium"
+            className="inline-flex items-center gap-2 bg-gold text-gold-foreground px-8 py-4 rounded-xl hover:bg-gold/90 transition-colors font-medium"
           >
             <MessageCircle className="w-5 h-5" />
             Escríbenos por WhatsApp
