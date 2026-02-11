@@ -170,11 +170,11 @@ const PropertyModal = ({ property, onClose }: { property: Property; onClose: () 
           </div>
 
           {/* Features grid */}
-          <div className="grid grid-cols-4 gap-3 mb-6">
-            <div className="border border-border rounded-xl p-3 text-center">
+          <div className="grid grid-cols-4 gap-2 mb-6">
+            <div className="border border-border rounded-xl p-2 text-center">
               <Bed className="w-5 h-5 text-muted-foreground mx-auto mb-1" />
               <p className="font-bold text-foreground text-lg">{property.beds}</p>
-              <p className="text-muted-foreground text-xs">Recámaras</p>
+              <p className="text-muted-foreground text-[10px] leading-tight">Recámaras</p>
             </div>
             <div className="border border-border rounded-xl p-3 text-center">
               <Bath className="w-5 h-5 text-muted-foreground mx-auto mb-1" />
