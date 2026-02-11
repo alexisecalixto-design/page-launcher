@@ -81,7 +81,7 @@ const properties: Property[] = [
     images: [depto1],
     title: "Departamento La Provincia Génova",
     location: "La Provincia, Morelos",
-    price: "$1,720,000 MXN",
+    price: "$680,000 MXN",
     beds: 3,
     baths: 2.5,
     floors: 2,
