@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Layers, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, Flame, DoorOpen, Sofa, CookingPot, TreePalm } from "lucide-react";
+import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Layers, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, Flame, DoorOpen, Sofa, CookingPot, TreePalm, ArrowUp, Mountain } from "lucide-react";
 import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
 import tlaltizapan2 from "@/assets/tlaltizapan-2.jpg";
 import tlaltizapan3 from "@/assets/tlaltizapan-3.jpg";
@@ -84,12 +84,12 @@ const properties: Property[] = [
     price: "$680,000 MXN",
     beds: 2,
     baths: 1,
-    floors: 2,
+    floors: 1,
     parking: 1,
-    area: "130 m²",
+    area: "75 m²",
     tag: null,
-    description: "Hermosa casa de dos pisos en fraccionamiento con acceso controlado. Cuenta con alberca con chapoteadero, palapa y área de asador perfecta para reuniones familiares. Incluye cocina equipada, portón eléctrico y amplios espacios. Una excelente opción para disfrutar del clima cálido de Morelos con toda la seguridad y comodidad.",
-    amenities: ["Alberca", "Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Acceso controlado", "Cocina equipada"],
+    description: "Excelente departamento en último nivel con vista panorámica. Cuenta con dos recámaras, un baño completo, cocina y sala comedor. El condominio ofrece alberca y chapoteadero para disfrutar del clima cálido de Morelos. Una oportunidad perfecta para quienes buscan comodidad y calidad de vida a un precio accesible.",
+    amenities: ["Alberca", "Chapoteadero", "Último nivel", "Vista panorámica"],
   },
 ];
 
@@ -109,6 +109,8 @@ const amenityIcons: Record<string, React.ReactNode> = {
   "Portón eléctrico": <DoorOpen className="w-5 h-5 text-primary" />,
   "Muebles incluidos": <Sofa className="w-5 h-5 text-primary" />,
   "Cocina equipada": <CookingPot className="w-5 h-5 text-primary" />,
+  "Último nivel": <ArrowUp className="w-5 h-5 text-primary" />,
+  "Vista panorámica": <Mountain className="w-5 h-5 text-primary" />,
 };
 
 const PropertyModal = ({ property, onClose }: { property: Property; onClose: () => void }) => {
