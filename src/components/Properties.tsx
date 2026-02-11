@@ -14,6 +14,7 @@ import xochitepec4 from "@/assets/xochitepec-4.jpg";
 import xochitepec5 from "@/assets/xochitepec-5.jpg";
 import xochitepec6 from "@/assets/xochitepec-6.jpg";
 import xochitepec7 from "@/assets/xochitepec-7.jpg";
+import xochitepec8 from "@/assets/xochitepec-8.jpg";
 import fraccionamiento1 from "@/assets/fraccionamiento-1.jpg";
 import fraccionamiento4 from "@/assets/fraccionamiento-4.jpg";
 import depto1 from "@/assets/depto-1.jpg";
@@ -50,7 +51,7 @@ const properties: Property[] = [
     amenities: ["Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Jardín amplio", "Muebles incluidos"],
   },
   {
-    images: [xochitepec2, xochitepec1, xochitepec3, xochitepec4, xochitepec5, xochitepec6, xochitepec7],
+    images: [xochitepec2, xochitepec1, xochitepec3, xochitepec4, xochitepec5, xochitepec6, xochitepec7, xochitepec8],
     title: "Casa Xochitepec",
     location: "Xochitepec, Morelos",
     price: "$1,080,000 MXN",
