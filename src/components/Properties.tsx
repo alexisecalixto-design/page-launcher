@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Building, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, UmbrellaOff, Flame, DoorOpen, Sofa, CookingPot } from "lucide-react";
+import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Layers, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, Flame, DoorOpen, Sofa, CookingPot, TreePalm } from "lucide-react";
 import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
 import tlaltizapan2 from "@/assets/tlaltizapan-2.jpg";
 import tlaltizapan3 from "@/assets/tlaltizapan-3.jpg";
@@ -97,7 +97,7 @@ const amenityIcons: Record<string, React.ReactNode> = {
   "Parque acuático": <Waves className="w-5 h-5 text-primary" />,
   "Alberca": <Droplets className="w-5 h-5 text-primary" />,
   "Chapoteadero": <Waves className="w-5 h-5 text-primary" />,
-  "Palapa": <UmbrellaOff className="w-5 h-5 text-primary" />,
+  "Palapa": <TreePalm className="w-5 h-5 text-primary" />,
   "Regaderas y baños": <ShowerHead className="w-5 h-5 text-primary" />,
   "Áreas verdes": <TreePine className="w-5 h-5 text-primary" />,
   "Acceso controlado": <Lock className="w-5 h-5 text-primary" />,
@@ -182,7 +182,7 @@ const PropertyModal = ({ property, onClose }: { property: Property; onClose: () 
               <p className="text-muted-foreground text-xs">Baños</p>
             </div>
             <div className="border border-border rounded-xl p-3 text-center">
-              <Building className="w-5 h-5 text-muted-foreground mx-auto mb-1" />
+              <Layers className="w-5 h-5 text-muted-foreground mx-auto mb-1" />
               <p className="font-bold text-foreground text-lg">{property.floors}</p>
               <p className="text-muted-foreground text-xs">Pisos</p>
             </div>
