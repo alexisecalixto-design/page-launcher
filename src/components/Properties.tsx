@@ -130,49 +130,22 @@ const PropertyModal = ({ property, onClose }: { property: Property; onClose: () 
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/60 backdrop-blur-sm" onClick={onClose}>
-      <div className="bg-card rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-hidden shadow-2xl flex flex-col md:flex-row" onClick={(e) => e.stopPropagation()}>
+      <div className="bg-card rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-hidden shadow-2xl flex flex-col md:flex-row relative" onClick={(e) => e.stopPropagation()}>
+        {/* Close button - fixed position over the modal */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 z-20 text-muted-foreground hover:text-foreground transition-colors bg-card/90 backdrop-blur-sm rounded-full p-1.5 shadow-md"
+        >
+          <X className="w-6 h-6" />
+        </button>
+
         {/* Left: Image gallery */}
         <div className="relative w-full md:w-1/2 h-72 md:h-auto md:min-h-[500px] flex-shrink-0">
-          <img
-            src={property.images[currentImage]}
-            alt={property.title}
-            className="w-full h-full object-cover"
-          />
-          {property.images.length > 1 && (
-            <>
-              <button
-                onClick={prevImage}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-foreground/60 text-primary-foreground p-2 rounded-full hover:bg-foreground/80 transition-colors"
-              >
-                <ChevronLeft className="w-5 h-5" />
-              </button>
-              <button
-                onClick={nextImage}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-foreground/60 text-primary-foreground p-2 rounded-full hover:bg-foreground/80 transition-colors"
-              >
-                <ChevronRight className="w-5 h-5" />
-              </button>
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-                {property.images.map((_, i) => (
-                  <button
-                    key={i}
-                    onClick={() => setCurrentImage(i)}
-                    className={`w-2.5 h-2.5 rounded-full transition-colors ${i === currentImage ? "bg-primary" : "bg-primary-foreground/40"}`}
-                  />
-                ))}
-              </div>
-            </>
-          )}
+...
         </div>
 
         {/* Right: Details */}
-        <div className="w-full md:w-1/2 overflow-y-auto p-6 md:p-8 relative">
-          <button
-            onClick={onClose}
-            className="sticky top-4 float-right z-10 text-muted-foreground hover:text-foreground transition-colors bg-card/80 backdrop-blur-sm rounded-full p-1"
-          >
-            <X className="w-6 h-6" />
-          </button>
+        <div className="w-full md:w-1/2 overflow-y-auto p-6 md:p-8 pt-12 md:pt-8 pr-14">
 
           {/* Price */}
           <div className="mb-6">
