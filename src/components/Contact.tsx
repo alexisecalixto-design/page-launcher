@@ -74,12 +74,32 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-accent-foreground/10 text-center">
-          <div className="bg-[hsl(20,30%,25%)] -mx-4 -mb-20 md:-mb-28 px-4 py-6 mt-8">
-            <p className="text-white/70 text-sm flex items-center justify-center gap-1">
-              Hecho con <Heart className="w-4 h-4 text-red-500 fill-red-500" /> en Morelos
-            </p>
-          </div>
+        {/* Botón WhatsApp */}
+        <div className="flex justify-center mt-12">
+          <a
+            href="https://wa.me/527772648784?text=Hola,%20me%20interesa%20una%20propiedad%20en%20Morelos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-accent-foreground/10 border border-accent-foreground/20 text-accent-foreground px-8 py-4 rounded-xl hover:bg-accent-foreground/20 transition-colors font-medium"
+          >
+            <MessageCircle className="w-5 h-5" />
+            Escríbenos por WhatsApp
+          </a>
+        </div>
+      </div>
+
+      {/* Footer chocolate */}
+      <div className="bg-[hsl(20,20%,18%)] mt-20 md:mt-28 px-4 py-6">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          <span className="font-display text-lg font-bold text-white/90">
+            Casas en <span className="text-gold">Morelos</span>
+          </span>
+          <p className="text-white/60 text-sm flex items-center gap-1">
+            Hecho con <Heart className="w-4 h-4 text-red-500 fill-red-500" /> en Morelos
+          </p>
+          <p className="text-white/60 text-sm">
+            © {new Date().getFullYear()} Casas en Morelos. Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </section>
