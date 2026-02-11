@@ -21,6 +21,11 @@ import fraccionamiento3 from "@/assets/fraccionamiento-3.jpg";
 import fraccionamiento4 from "@/assets/fraccionamiento-4.jpg";
 import fraccionamiento5 from "@/assets/fraccionamiento-5.jpg";
 import depto1 from "@/assets/depto-1.jpg";
+import depto2 from "@/assets/depto-2.jpg";
+import depto3 from "@/assets/depto-3.jpg";
+import depto4 from "@/assets/depto-4.jpg";
+import depto5 from "@/assets/depto-5.jpg";
+import depto6 from "@/assets/depto-6.jpg";
 import propertyNew1 from "@/assets/property-new-1.jpg";
 
 type Property = {
@@ -82,7 +87,7 @@ const properties: Property[] = [
     amenities: ["Alberca", "Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Acceso controlado", "Cocina equipada"],
   },
   {
-    images: [depto1],
+    images: [depto1, depto2, depto3, depto4, depto5, depto6],
     title: "Departamento La Provincia Génova",
     location: "La Provincia, Morelos",
     price: "$680,000 MXN",
