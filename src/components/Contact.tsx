@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Clock } from "lucide-react";
+import { Phone, MessageCircle, Clock, Heart } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -74,8 +74,12 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-accent-foreground/10 text-center text-accent-foreground/50 text-sm">
-          © {new Date().getFullYear()} Casas en Morelos. Todos los derechos reservados.
+        <div className="mt-16 pt-8 border-t border-accent-foreground/10 text-center">
+          <div className="bg-[hsl(20,30%,25%)] -mx-4 -mb-20 md:-mb-28 px-4 py-6 mt-8">
+            <p className="text-white/70 text-sm flex items-center justify-center gap-1">
+              Hecho con <Heart className="w-4 h-4 text-red-500 fill-red-500" /> en Morelos
+            </p>
+          </div>
         </div>
       </div>
     </section>
