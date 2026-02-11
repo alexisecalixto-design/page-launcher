@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Building, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, UmbrellaOff } from "lucide-react";
+import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Building, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, UmbrellaOff, Flame, DoorOpen, Sofa } from "lucide-react";
 import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
 import tlaltizapan2 from "@/assets/tlaltizapan-2.jpg";
 import tlaltizapan3 from "@/assets/tlaltizapan-3.jpg";
@@ -42,12 +42,12 @@ const properties: Property[] = [
     price: "$1,650,000 MXN",
     beds: 3,
     baths: 1.5,
-    floors: 1,
-    parking: 2,
+    floors: 2,
+    parking: 1,
     area: "120 m²",
     tag: "Destacada",
-    description: "Hermosa casa en Tlaltizapán con amplio terreno, ideal para familias. Cuenta con espacios amplios, jardín y excelente ubicación cerca de servicios.",
-    amenities: ["Jardín amplio", "Áreas verdes", "Acceso controlado", "Seguridad"],
+    description: "Hermosa casa con amplios espacios exteriores ideal para disfrutar del clima cálido de Morelos. Cuenta con una encantadora palapa, chapoteadero perfecto para toda la familia, área de asador para reuniones y portón eléctrico para mayor comodidad y seguridad. Los interiores son luminosos y acogedores, con acabados modernos y funcionales.",
+    amenities: ["Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Jardín amplio", "Muebles incluidos"],
   },
   {
     images: [xochitepec2, xochitepec1, xochitepec3, xochitepec4, xochitepec5, xochitepec6, xochitepec7],
@@ -105,6 +105,9 @@ const amenityIcons: Record<string, React.ReactNode> = {
   "2 aires acondicionados": <Snowflake className="w-5 h-5 text-primary" />,
   "Jardín amplio": <TreePine className="w-5 h-5 text-primary" />,
   "Vigilancia 24/7": <Shield className="w-5 h-5 text-primary" />,
+  "Asador": <Flame className="w-5 h-5 text-primary" />,
+  "Portón eléctrico": <DoorOpen className="w-5 h-5 text-primary" />,
+  "Muebles incluidos": <Sofa className="w-5 h-5 text-primary" />,
 };
 
 const PropertyModal = ({ property, onClose }: { property: Property; onClose: () => void }) => {
