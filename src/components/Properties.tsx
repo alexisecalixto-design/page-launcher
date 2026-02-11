@@ -169,7 +169,7 @@ const PropertyModal = ({ property, onClose }: { property: Property; onClose: () 
         <div className="w-full md:w-1/2 overflow-y-auto p-6 md:p-8 relative">
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 text-muted-foreground hover:text-foreground transition-colors"
+            className="sticky top-4 float-right z-10 text-muted-foreground hover:text-foreground transition-colors bg-card/80 backdrop-blur-sm rounded-full p-1"
           >
             <X className="w-6 h-6" />
           </button>
