@@ -173,7 +173,8 @@
   }
 
   .section-divider {
-    @apply w-24 h-1 bg-gradient-to-r from-primary to-gold rounded-full mx-auto;
+    @apply w-24 h-1 rounded-full mx-auto;
+    background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--gold)));
   }
 }
 
