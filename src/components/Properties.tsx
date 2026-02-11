@@ -252,7 +252,7 @@ const Properties = () => {
             Propiedades <span className="text-gradient">Destacadas</span>
           </h2>
           <div className="section-divider mb-6" />
-          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg font-sans">
             Explora nuestra selección de las mejores propiedades en Morelos
           </p>
         </div>
@@ -285,11 +285,11 @@ const Properties = () => {
                 <h3 className="font-display text-base font-semibold text-foreground mb-2">
                   {property.title}
                 </h3>
-                <div className="flex items-center gap-1 text-muted-foreground text-sm mb-4">
+                <div className="flex items-center gap-1 text-muted-foreground text-sm font-sans mb-4">
                   <MapPin className="w-4 h-4" />
                   {property.location}
                 </div>
-                <div className="flex items-center gap-4 text-sm text-muted-foreground border-t border-border pt-3">
+                <div className="flex items-center gap-4 text-sm text-muted-foreground font-sans border-t border-border pt-3">
                   <div className="flex items-center gap-1.5">
                     <Bed className="w-4 h-4" />
                     <span>{property.beds}</span>
