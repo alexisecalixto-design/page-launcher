@@ -89,7 +89,7 @@ const Contact = () => {
       </div>
 
       {/* Footer chocolate */}
-      <div className="bg-[hsl(20,20%,18%)] mt-20 md:mt-28 px-4 py-6">
+      <div className="bg-[hsl(20,20%,18%)] mt-12 md:mt-16 px-4 py-6">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-lg font-bold text-white/90">
             Casas en <span className="text-gold">Morelos</span>
