@@ -1,25 +1,35 @@
-import { Shield, TrendingUp, Heart, Users } from "lucide-react";
+import { MapPin, Sun, TreePine, Heart, TrendingUp, Shield } from "lucide-react";
 
 const benefits = [
   {
-    icon: Shield,
-    title: "Seguridad Garantizada",
-    description: "Todas nuestras propiedades están en fraccionamientos con vigilancia 24/7 y acceso controlado.",
+    icon: MapPin,
+    title: "A 1 Hora de CDMX",
+    description: "Conectividad perfecta con la capital. Vive lejos del caos, pero cerca de todo.",
   },
   {
-    icon: TrendingUp,
-    title: "Inversión Inteligente",
-    description: "Morelos tiene una de las mejores plusvalías del país. Tu patrimonio crece con el tiempo.",
+    icon: Sun,
+    title: "Clima Primaveral",
+    description: "Conocida como 'la ciudad de la eterna primavera', con temperaturas ideales todo el año.",
+  },
+  {
+    icon: TreePine,
+    title: "Naturaleza Exuberante",
+    description: "Rodeado de jardines, barrancas y vegetación tropical. El escape perfecto.",
   },
   {
     icon: Heart,
     title: "Calidad de Vida",
-    description: "Clima cálido todo el año, naturaleza, tranquilidad y a solo una hora de la CDMX.",
+    description: "Menos estrés, aire más limpio y una comunidad cálida y acogedora.",
   },
   {
-    icon: Users,
-    title: "Asesoría Personalizada",
-    description: "Te acompañamos en todo el proceso, desde la búsqueda hasta la entrega de llaves.",
+    icon: TrendingUp,
+    title: "Mejor Inversión",
+    description: "Propiedades con excelente plusvalía a precios más accesibles que en CDMX.",
+  },
+  {
+    icon: Shield,
+    title: "Seguridad",
+    description: "Fraccionamientos con vigilancia 24/7 y ambiente familiar tranquilo.",
   },
 ];
 
@@ -33,11 +43,11 @@ const Benefits = () => {
           </h2>
           <div className="section-divider mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Descubre las ventajas de invertir en una de las regiones más atractivas de México.
+            Descubre todo lo que esta hermosa región tiene para ofrecerte
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={benefit.title}
