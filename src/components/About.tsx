@@ -19,10 +19,10 @@ const About = () => {
             <div className="section-divider mb-6" />
           </div>
 
-          <p className="text-muted-foreground text-lg leading-relaxed mb-6 text-center">
+          <p className="text-muted-foreground text-base leading-relaxed mb-6 text-center">
             Somos un equipo de asesores inmobiliarios apasionados por ayudar a familias a encontrar su hogar perfecto en Morelos. Con más de 15 años de experiencia en el mercado local, conocemos cada rincón del estado.
           </p>
-          <p className="text-muted-foreground leading-relaxed mb-8 text-center">
+          <p className="text-muted-foreground text-base leading-relaxed mb-8 text-center">
             Entendemos lo que buscas: mejorar tu calidad de vida con un clima excepcional y rodeado de naturaleza. Te acompañamos en todo el proceso, desde la búsqueda hasta la entrega de llaves.
           </p>
 
