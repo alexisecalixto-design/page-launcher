@@ -141,7 +141,36 @@ const PropertyModal = ({ property, onClose }: { property: Property; onClose: () 
 
         {/* Left: Image gallery */}
         <div className="relative w-full md:w-1/2 h-72 md:h-auto md:min-h-[500px] flex-shrink-0">
-...
+          <img
+            src={property.images[currentImage]}
+            alt={property.title}
+            className="w-full h-full object-cover"
+          />
+          {property.images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-foreground/60 text-primary-foreground p-2 rounded-full hover:bg-foreground/80 transition-colors"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <button
+                onClick={nextImage}
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-foreground/60 text-primary-foreground p-2 rounded-full hover:bg-foreground/80 transition-colors"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+                {property.images.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrentImage(i)}
+                    className={`w-2.5 h-2.5 rounded-full transition-colors ${i === currentImage ? "bg-primary" : "bg-primary-foreground/40"}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
         </div>
 
         {/* Right: Details */}
