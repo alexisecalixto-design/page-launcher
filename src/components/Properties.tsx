@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Building, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, UmbrellaOff, Flame, DoorOpen, Sofa } from "lucide-react";
+import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Building, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, UmbrellaOff, Flame, DoorOpen, Sofa, CookingPot } from "lucide-react";
 import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
 import tlaltizapan2 from "@/assets/tlaltizapan-2.jpg";
 import tlaltizapan3 from "@/assets/tlaltizapan-3.jpg";
@@ -71,11 +71,11 @@ const properties: Property[] = [
     beds: 3,
     baths: 2.5,
     floors: 2,
-    parking: 2,
+    parking: 1,
     area: "130 m²",
     tag: null,
-    description: "Casa en fraccionamiento privado La Provincia, con vigilancia 24/7, áreas verdes y acceso controlado. Excelente inversión.",
-    amenities: ["Áreas verdes", "Acceso controlado", "Seguridad", "Vigilancia 24/7"],
+    description: "Hermosa casa de dos pisos en fraccionamiento con acceso controlado. Cuenta con alberca con chapoteadero, palapa y área de asador perfecta para reuniones familiares. Incluye cocina equipada, portón eléctrico y amplios espacios. Una excelente opción para disfrutar del clima cálido de Morelos con toda la seguridad y comodidad.",
+    amenities: ["Alberca", "Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Acceso controlado", "Cocina equipada"],
   },
   {
     images: [depto1],
@@ -108,6 +108,7 @@ const amenityIcons: Record<string, React.ReactNode> = {
   "Asador": <Flame className="w-5 h-5 text-primary" />,
   "Portón eléctrico": <DoorOpen className="w-5 h-5 text-primary" />,
   "Muebles incluidos": <Sofa className="w-5 h-5 text-primary" />,
+  "Cocina equipada": <CookingPot className="w-5 h-5 text-primary" />,
 };
 
 const PropertyModal = ({ property, onClose }: { property: Property; onClose: () => void }) => {
