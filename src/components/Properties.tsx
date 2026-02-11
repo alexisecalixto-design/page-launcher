@@ -16,7 +16,10 @@ import xochitepec6 from "@/assets/xochitepec-6.jpg";
 import xochitepec7 from "@/assets/xochitepec-7.jpg";
 import xochitepec8 from "@/assets/xochitepec-8.jpg";
 import fraccionamiento1 from "@/assets/fraccionamiento-1.jpg";
+import fraccionamiento2 from "@/assets/fraccionamiento-2.jpg";
+import fraccionamiento3 from "@/assets/fraccionamiento-3.jpg";
 import fraccionamiento4 from "@/assets/fraccionamiento-4.jpg";
+import fraccionamiento5 from "@/assets/fraccionamiento-5.jpg";
 import depto1 from "@/assets/depto-1.jpg";
 import propertyNew1 from "@/assets/property-new-1.jpg";
 
@@ -65,7 +68,7 @@ const properties: Property[] = [
     amenities: ["Parque acuático", "Alberca", "Chapoteadero", "Palapa", "Regaderas y baños", "Áreas verdes", "Acceso controlado", "Seguridad", "2 aires acondicionados"],
   },
   {
-    images: [fraccionamiento1, fraccionamiento4, propertyNew1],
+    images: [fraccionamiento1, fraccionamiento2, fraccionamiento3, fraccionamiento4, fraccionamiento5],
     title: "Casa La Provincia Crotone",
     location: "La Provincia, Morelos",
     price: "$1,720,000 MXN",
