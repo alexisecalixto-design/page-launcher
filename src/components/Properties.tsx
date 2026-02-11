@@ -296,7 +296,7 @@ const Properties = () => {
         <div className="text-center mt-12">
           <a
             href="#contacto"
-            className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl hover:bg-primary/90 transition-colors"
           >
             Conoce más propiedades
             <ArrowRight className="w-4 h-4" />
