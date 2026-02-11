@@ -73,6 +73,10 @@ const Contact = () => {
             <p className="text-accent-foreground/70 text-sm">9am - 5pm</p>
           </div>
         </div>
+
+        <div className="mt-16 pt-8 border-t border-accent-foreground/10 text-center text-accent-foreground/50 text-sm">
+          © {new Date().getFullYear()} Casas en Morelos. Todos los derechos reservados.
+        </div>
       </div>
     </section>
   );
