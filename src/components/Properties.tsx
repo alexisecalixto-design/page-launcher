@@ -1,71 +1,45 @@
-import { Bed, Bath, Maximize, MapPin } from "lucide-react";
-import property1 from "@/assets/property-1.jpg";
-import property2 from "@/assets/property-2.jpg";
-import property3 from "@/assets/property-3.jpg";
-import depto1 from "@/assets/depto-1.jpg";
+import { Bed, Bath, MapPin, ArrowRight } from "lucide-react";
+import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
+import xochitepec2 from "@/assets/xochitepec-2.png";
 import fraccionamiento1 from "@/assets/fraccionamiento-1.jpg";
-import fraccionamiento4 from "@/assets/fraccionamiento-4.jpg";
+import depto1 from "@/assets/depto-1.jpg";
 
 const properties = [
   {
-    image: property1,
-    title: "Casa con Alberca en Jiutepec",
-    location: "Jiutepec, Morelos",
-    price: "$1,850,000",
+    image: tlaltizapan1,
+    title: "Casa Tlaltizapán",
+    location: "Tlaltizapán, Morelos",
+    price: "$1,650,000 MXN",
     beds: 3,
-    baths: 2,
-    area: "120 m²",
+    baths: 1.5,
     tag: "Destacada",
   },
   {
-    image: fraccionamiento4,
-    title: "Casa en Fraccionamiento Privado",
-    location: "Temixco, Morelos",
-    price: "$1,450,000",
-    beds: 3,
-    baths: 2,
-    area: "110 m²",
-    tag: "Nueva",
-  },
-  {
-    image: depto1,
-    title: "Departamento con Vista a la Montaña",
-    location: "Cuernavaca, Morelos",
-    price: "$980,000",
+    image: xochitepec2,
+    title: "Casa Xochitepec",
+    location: "Xochitepec, Morelos",
+    price: "$1,080,000 MXN",
     beds: 2,
     baths: 1,
-    area: "75 m²",
-    tag: "Oportunidad",
-  },
-  {
-    image: property3,
-    title: "Casa Estilo Colonial",
-    location: "Centro, Cuernavaca",
-    price: "$3,200,000",
-    beds: 4,
-    baths: 3,
-    area: "200 m²",
-    tag: "Premium",
-  },
-  {
-    image: fraccionamiento1,
-    title: "Casa Verde en Fraccionamiento",
-    location: "Yautepec, Morelos",
-    price: "$1,100,000",
-    beds: 3,
-    baths: 2,
-    area: "95 m²",
     tag: null,
   },
   {
-    image: property2,
-    title: "Residencia con Alberca Infinita",
-    location: "Tepoztlán, Morelos",
-    price: "$5,500,000",
-    beds: 4,
-    baths: 3,
-    area: "280 m²",
-    tag: "Exclusiva",
+    image: fraccionamiento1,
+    title: "Casa La Provincia Crotone",
+    location: "La Provincia, Morelos",
+    price: "$1,720,000 MXN",
+    beds: 3,
+    baths: 2.5,
+    tag: null,
+  },
+  {
+    image: depto1,
+    title: "Departamento La Provincia Génova",
+    location: "La Provincia, Morelos",
+    price: "$680,000 MXN",
+    beds: 2,
+    baths: 1,
+    tag: null,
   },
 ];
 
@@ -75,18 +49,18 @@ const Properties = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-            Propiedades <span className="text-gradient">Disponibles</span>
+            Propiedades <span className="text-gradient">Destacadas</span>
           </h2>
           <div className="section-divider mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Explora nuestra selección de casas, departamentos y terrenos en las mejores ubicaciones de Morelos.
+            Explora nuestra selección de las mejores propiedades en Morelos
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {properties.map((property) => (
             <div key={property.title} className="card-elevated overflow-hidden group">
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-56 overflow-hidden">
                 <img
                   src={property.image}
                   alt={property.title}
@@ -97,36 +71,48 @@ const Properties = () => {
                     {property.tag}
                   </span>
                 )}
-                <div className="absolute bottom-4 right-4 bg-foreground/80 backdrop-blur-sm text-primary-foreground font-display text-xl font-bold px-4 py-2 rounded-lg">
+                <div className="absolute bottom-4 right-4 bg-foreground/80 backdrop-blur-sm text-primary-foreground font-display text-sm font-bold px-3 py-1.5 rounded-lg">
                   {property.price}
                 </div>
+                <a
+                  href="#contacto"
+                  className="absolute bottom-4 left-4 bg-primary/90 backdrop-blur-sm text-primary-foreground text-xs font-medium px-3 py-1.5 rounded-lg hover:bg-primary transition-colors"
+                >
+                  Ver detalles
+                </a>
               </div>
 
-              <div className="p-6">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+              <div className="p-5">
+                <h3 className="font-display text-base font-semibold text-foreground mb-2">
                   {property.title}
                 </h3>
                 <div className="flex items-center gap-1 text-muted-foreground text-sm mb-4">
                   <MapPin className="w-4 h-4" />
                   {property.location}
                 </div>
-                <div className="flex items-center gap-6 text-sm text-muted-foreground border-t border-border pt-4">
+                <div className="flex items-center gap-4 text-sm text-muted-foreground border-t border-border pt-3">
                   <div className="flex items-center gap-1.5">
                     <Bed className="w-4 h-4" />
-                    <span>{property.beds} Rec.</span>
+                    <span>{property.beds}</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <Bath className="w-4 h-4" />
-                    <span>{property.baths} Baños</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <Maximize className="w-4 h-4" />
-                    <span>{property.area}</span>
+                    <span>{property.baths}</span>
                   </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <a
+            href="#contacto"
+            className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
+          >
+            Conoce más propiedades
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </div>
     </section>
