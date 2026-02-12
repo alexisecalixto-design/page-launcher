@@ -27,6 +27,11 @@ import depto4 from "@/assets/depto-4.jpg";
 import depto5 from "@/assets/depto-5.jpg";
 import depto6 from "@/assets/depto-6.jpg";
 import propertyNew1 from "@/assets/property-new-1.jpg";
+import provinciaBella1 from "@/assets/provincia-bella-1.jpg";
+import provinciaBella2 from "@/assets/provincia-bella-2.jpg";
+import provinciaBella3 from "@/assets/provincia-bella-3.jpg";
+import provinciaBella4 from "@/assets/provincia-bella-4.jpg";
+import provinciaBella5 from "@/assets/provincia-bella-5.jpg";
 
 type Property = {
   images: string[];
@@ -99,6 +104,19 @@ const properties: Property[] = [
     tag: null,
     description: "Excelente departamento en último nivel con vista panorámica. Cuenta con dos recámaras, un baño completo, cocina y sala comedor. El condominio ofrece alberca y chapoteadero para disfrutar del clima cálido de Morelos. Una oportunidad perfecta para quienes buscan comodidad y calidad de vida a un precio accesible.",
     amenities: ["Alberca", "Chapoteadero", "Último nivel", "Vista panorámica"],
+  },
+  {
+    images: [provinciaBella1, provinciaBella2, provinciaBella3, provinciaBella4, provinciaBella5],
+    title: "Casa La Provincia Bella",
+    location: "La Provincia, Morelos",
+    price: "$1,550,000 MXN",
+    beds: 3,
+    baths: 1.5,
+    floors: 2,
+    parking: 1,
+    tag: null,
+    description: "Hermosa casa de dos pisos en privada con vigilancia y acceso controlado al fraccionamiento. Cuenta con tres recámaras, sala, comedor, cocina equipada y un baño y medio. Disfruta de alberca climatizada, chapoteadero, palapa y asador en las áreas comunes. Solo pago de contado.",
+    amenities: ["Alberca", "Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
   },
 ];
 
