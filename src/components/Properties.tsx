@@ -126,7 +126,7 @@ const properties: Property[] = [
     amenities: ["Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
   },
   {
-    images: [campoVerde1, campoVerde2, campoVerde3, campoVerde4, campoVerde5, campoVerde6, campoVerde7],
+    images: [campoVerde1, campoVerde2, campoVerde3, campoVerde4, campoVerde6, campoVerde7],
     title: "Casa en Campo Verde Temixco",
     location: "Campo Verde, Temixco, Morelos",
     price: "$1,430,000 MXN",
