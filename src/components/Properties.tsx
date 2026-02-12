@@ -32,6 +32,12 @@ import provinciaBella2 from "@/assets/provincia-bella-2.jpg";
 import provinciaBella3 from "@/assets/provincia-bella-3.jpg";
 import provinciaBella4 from "@/assets/provincia-bella-4.jpg";
 import provinciaBella5 from "@/assets/provincia-bella-5.jpg";
+import campoVerde1 from "@/assets/campo-verde-1.jpg";
+import campoVerde2 from "@/assets/campo-verde-2.jpg";
+import campoVerde3 from "@/assets/campo-verde-3.jpg";
+import campoVerde4 from "@/assets/campo-verde-4.jpg";
+import campoVerde5 from "@/assets/campo-verde-5.jpg";
+import campoVerde6 from "@/assets/campo-verde-6.jpg";
 
 type Property = {
   images: string[];
@@ -117,6 +123,19 @@ const properties: Property[] = [
     tag: null,
     description: "Hermosa casa de dos pisos en privada con vigilancia y acceso controlado al fraccionamiento. Cuenta con tres recámaras, sala, comedor, cocina equipada y un baño y medio. Disfruta de alberca climatizada, chapoteadero, palapa y asador en las áreas comunes. Solo pago de contado.",
     amenities: ["Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
+  },
+  {
+    images: [campoVerde1, campoVerde2, campoVerde3, campoVerde4, campoVerde5, campoVerde6],
+    title: "Casa en Campo Verde Temixco",
+    location: "Campo Verde, Temixco, Morelos",
+    price: "$1,430,000 MXN",
+    beds: 4,
+    baths: 5,
+    floors: 3,
+    parking: 1,
+    tag: null,
+    description: "Amplia casa de tres niveles con 4 recámaras y 5 baños, ideal para familias grandes. Cuenta con alberca con chapoteadero, áreas verdes y portón eléctrico. Ubicada a solo 12 minutos de la ex hacienda de Temixco, en un entorno tranquilo y con excelente conectividad.",
+    amenities: ["Alberca", "Chapoteadero", "Áreas verdes", "Portón eléctrico"],
   },
 ];
 
