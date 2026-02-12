@@ -135,7 +135,7 @@ const properties: Property[] = [
     floors: 3,
     parking: 1,
     tag: null,
-    description: "Amplia casa de tres niveles con 4 recámaras y 5 baños, ideal para familias grandes. Cuenta con alberca con chapoteadero, áreas verdes y portón eléctrico. Ubicada a solo 12 minutos de la ex hacienda de Temixco, en un entorno tranquilo y con excelente conectividad.",
+    description: "Amplia casa de tres niveles con 4 recámaras y 5 baños, ideal para familias grandes. Cuenta con alberca con chapoteadero, áreas verdes y portón eléctrico. Ubicada a solo 12 minutos de la ex hacienda de Temixco, en un entorno tranquilo y con excelente conectividad. Se aceptan créditos INFONAVIT, bancario y de contado.",
     amenities: ["Alberca", "Chapoteadero", "Áreas verdes", "Portón eléctrico"],
   },
 ];
