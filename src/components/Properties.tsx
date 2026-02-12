@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Layers, Car, Waves, Droplets, TreePine, Shield, Lock, Snowflake, ShowerHead, Flame, DoorOpen, Sofa, CookingPot, TreePalm, ArrowUp, Mountain } from "lucide-react";
+import { Bed, Bath, MapPin, ArrowRight, X, ChevronLeft, ChevronRight, Layers, Car, Waves, Droplets, TreePine, Shield, Lock, AirVent, ShowerHead, Flame, DoorOpen, Sofa, CookingPot, TreePalm, ArrowUp, Mountain } from "lucide-react";
 import tlaltizapan1 from "@/assets/tlaltizapan-1.jpg";
 import tlaltizapan2 from "@/assets/tlaltizapan-2.jpg";
 import tlaltizapan3 from "@/assets/tlaltizapan-3.jpg";
@@ -107,7 +107,7 @@ const properties: Property[] = [
   },
   {
     images: [provinciaBella1, provinciaBella2, provinciaBella3, provinciaBella4, provinciaBella5],
-    title: "Casa La Provincia Bella",
+    title: "Casa La Provincia Biella",
     location: "La Provincia, Morelos",
     price: "$1,550,000 MXN",
     beds: 3,
@@ -129,7 +129,7 @@ const amenityIcons: Record<string, React.ReactNode> = {
   "Áreas verdes": <TreePine className="w-5 h-5 text-primary" />,
   "Acceso controlado": <Lock className="w-5 h-5 text-primary" />,
   "Seguridad": <Shield className="w-5 h-5 text-primary" />,
-  "3 aires acondicionados": <Snowflake className="w-5 h-5 text-primary" />,
+  "3 aires acondicionados": <AirVent className="w-5 h-5 text-primary" />,
   "Jardín amplio": <TreePine className="w-5 h-5 text-primary" />,
   "Vigilancia 24/7": <Shield className="w-5 h-5 text-primary" />,
   "Vigilancia en privada": <Shield className="w-5 h-5 text-primary" />,
