@@ -56,7 +56,7 @@ const properties: Property[] = [
     area: "120 m²",
     tag: "Destacada",
     description: "Hermosa casa con amplios espacios exteriores ideal para disfrutar del clima cálido de Morelos. Cuenta con una encantadora palapa, chapoteadero perfecto para toda la familia, área de asador para reuniones y portón eléctrico para mayor comodidad y seguridad. Los interiores son luminosos y acogedores, con acabados modernos y funcionales.",
-    amenities: ["Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Jardín amplio", "Muebles incluidos"],
+    amenities: ["Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Jardín amplio"],
   },
   {
     images: [xochitepec2, xochitepec1, xochitepec3, xochitepec4, xochitepec5, xochitepec6, xochitepec7, xochitepec8],
