@@ -38,6 +38,7 @@ import campoVerde3 from "@/assets/campo-verde-3.jpg";
 import campoVerde4 from "@/assets/campo-verde-4.jpg";
 import campoVerde5 from "@/assets/campo-verde-5.jpg";
 import campoVerde6 from "@/assets/campo-verde-6.jpg";
+import campoVerde7 from "@/assets/campo-verde-7.jpg";
 
 type Property = {
   images: string[];
@@ -125,7 +126,7 @@ const properties: Property[] = [
     amenities: ["Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
   },
   {
-    images: [campoVerde1, campoVerde2, campoVerde3, campoVerde4, campoVerde5, campoVerde6],
+    images: [campoVerde1, campoVerde2, campoVerde3, campoVerde4, campoVerde5, campoVerde6, campoVerde7],
     title: "Casa en Campo Verde Temixco",
     location: "Campo Verde, Temixco, Morelos",
     price: "$1,430,000 MXN",
