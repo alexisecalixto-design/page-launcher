@@ -69,8 +69,8 @@ const properties: Property[] = [
     parking: 1,
     area: "95 m²",
     tag: null,
-    description: "¡Tu refugio de fin de semana a precio de oportunidad! Imagina despertar cada mañana con el clima perfecto de Morelos, disfrutar de un parque acuático privado con tobogán y chapoteadero, organizar las mejores parrilladas bajo la palapa y vivir en una comunidad segura con acceso controlado. Esta casa de un nivel, lista para habitar con 2 aires acondicionados incluidos, te ofrece todo lo que siempre soñaste: tranquilidad, diversión y calidad de vida. ¿Lo mejor? Está en una ubicación privilegiada de Xochitepec con plusvalía en crecimiento. ¡No dejes pasar esta oportunidad única!",
-    amenities: ["Parque acuático", "Alberca", "Chapoteadero", "Palapa", "Regaderas y baños", "Áreas verdes", "Acceso controlado", "Seguridad", "2 aires acondicionados"],
+    description: "¡Tu refugio de fin de semana a precio de oportunidad! Imagina despertar cada mañana con el clima perfecto de Morelos, disfrutar de un parque acuático privado con tobogán y chapoteadero, organizar las mejores parrilladas bajo la palapa y vivir en una comunidad segura con acceso controlado. Esta casa de un nivel, lista para habitar con 3 aires acondicionados incluidos, te ofrece todo lo que siempre soñaste: tranquilidad, diversión y calidad de vida. ¿Lo mejor? Está en una ubicación privilegiada de Xochitepec con plusvalía en crecimiento. ¡No dejes pasar esta oportunidad única!",
+    amenities: ["Parque acuático", "Alberca", "Chapoteadero", "Palapa", "Regaderas y baños", "Áreas verdes", "Acceso controlado", "Seguridad", "3 aires acondicionados"],
   },
   {
     images: [fraccionamiento1, fraccionamiento2, fraccionamiento3, fraccionamiento4, fraccionamiento5],
