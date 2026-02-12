@@ -67,7 +67,7 @@ const properties: Property[] = [
     parking: 1,
     area: "120 m²",
     tag: "Destacada",
-    description: "Hermosa casa con amplios espacios exteriores ideal para disfrutar del clima cálido de Morelos. Cuenta con una encantadora palapa, chapoteadero perfecto para toda la familia, área de asador para reuniones y portón eléctrico para mayor comodidad y seguridad. Los interiores son luminosos y acogedores, con acabados modernos y funcionales.",
+    description: "Hermosa casa con amplios espacios exteriores ideal para disfrutar del clima cálido de Morelos. Cuenta con una encantadora palapa, chapoteadero perfecto para toda la familia, área de asador para reuniones y portón eléctrico para mayor comodidad y seguridad. Los interiores son luminosos y acogedores, con acabados modernos y funcionales. Se aceptan todos los créditos.",
     amenities: ["Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Jardín amplio"],
   },
   {
@@ -81,7 +81,7 @@ const properties: Property[] = [
     parking: 1,
     area: "95 m²",
     tag: null,
-    description: "¡Tu refugio de fin de semana a precio de oportunidad! Imagina despertar cada mañana con el clima perfecto de Morelos, disfrutar de un parque acuático privado con tobogán y chapoteadero, organizar las mejores parrilladas bajo la palapa y vivir en una comunidad segura con acceso controlado. Esta casa de un nivel, lista para habitar con 3 aires acondicionados incluidos, te ofrece todo lo que siempre soñaste: tranquilidad, diversión y calidad de vida. ¿Lo mejor? Está en una ubicación privilegiada de Xochitepec con plusvalía en crecimiento. ¡No dejes pasar esta oportunidad única!",
+    description: "¡Tu refugio de fin de semana a precio de oportunidad! Imagina despertar cada mañana con el clima perfecto de Morelos, disfrutar de un parque acuático privado con tobogán y chapoteadero, organizar las mejores parrilladas bajo la palapa y vivir en una comunidad segura con acceso controlado. Esta casa de un nivel, lista para habitar con 3 aires acondicionados incluidos, te ofrece todo lo que siempre soñaste: tranquilidad, diversión y calidad de vida. ¿Lo mejor? Está en una ubicación privilegiada de Xochitepec con plusvalía en crecimiento. ¡No dejes pasar esta oportunidad única! Se aceptan todos los créditos.",
     amenities: ["Parque acuático", "Alberca", "Chapoteadero", "Palapa", "Regaderas y baños", "Áreas verdes", "Acceso controlado", "Seguridad", "3 aires acondicionados"],
   },
   {
@@ -95,7 +95,7 @@ const properties: Property[] = [
     parking: 1,
     area: "130 m²",
     tag: null,
-    description: "Hermosa casa de dos pisos en fraccionamiento con acceso controlado. Cuenta con alberca con chapoteadero, palapa y área de asador perfecta para reuniones familiares. Incluye cocina equipada, portón eléctrico y amplios espacios. Una excelente opción para disfrutar del clima cálido de Morelos con toda la seguridad y comodidad.",
+    description: "Hermosa casa de dos pisos en fraccionamiento con acceso controlado. Cuenta con alberca con chapoteadero, palapa y área de asador perfecta para reuniones familiares. Incluye cocina equipada, portón eléctrico y amplios espacios. Una excelente opción para disfrutar del clima cálido de Morelos con toda la seguridad y comodidad. Se aceptan todos los créditos.",
     amenities: ["Alberca", "Chapoteadero", "Palapa", "Asador", "Portón eléctrico", "Acceso controlado", "Cocina equipada"],
   },
   {
@@ -109,7 +109,7 @@ const properties: Property[] = [
     parking: 1,
     area: "75 m²",
     tag: null,
-    description: "Excelente departamento en último nivel con vista panorámica. Cuenta con dos recámaras, un baño completo, cocina y sala comedor. El condominio ofrece alberca y chapoteadero para disfrutar del clima cálido de Morelos. Una oportunidad perfecta para quienes buscan comodidad y calidad de vida a un precio accesible.",
+    description: "Excelente departamento en último nivel con vista panorámica. Cuenta con dos recámaras, un baño completo, cocina y sala comedor. El condominio ofrece alberca y chapoteadero para disfrutar del clima cálido de Morelos. Una oportunidad perfecta para quienes buscan comodidad y calidad de vida a un precio accesible. Se aceptan todos los créditos.",
     amenities: ["Alberca", "Chapoteadero", "Último nivel", "Vista panorámica"],
   },
   {
