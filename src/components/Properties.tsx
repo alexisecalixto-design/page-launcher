@@ -116,7 +116,7 @@ const properties: Property[] = [
     parking: 1,
     tag: null,
     description: "Hermosa casa de dos pisos en privada con vigilancia y acceso controlado al fraccionamiento. Cuenta con tres recámaras, sala, comedor, cocina equipada y un baño y medio. Disfruta de alberca climatizada, chapoteadero, palapa y asador en las áreas comunes. Solo pago de contado.",
-    amenities: ["Alberca", "Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
+    amenities: ["Alberca climatizada", "Chapoteadero", "Palapa", "Asador", "Vigilancia en privada", "Acceso controlado", "Cocina equipada"],
   },
 ];
 
