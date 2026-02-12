@@ -104,7 +104,7 @@ const properties: Property[] = [
 
 const amenityIcons: Record<string, React.ReactNode> = {
   "Parque acuático": <Droplets className="w-5 h-5 text-primary" />,
-  "Alberca": <span className="text-lg">🏊</span>,
+  "Alberca": <span className="w-5 h-5 flex items-center justify-center text-primary text-base">🏊</span>,
   "Chapoteadero": <Waves className="w-5 h-5 text-primary" />,
   "Palapa": <TreePalm className="w-5 h-5 text-primary" />,
   "Regaderas y baños": <ShowerHead className="w-5 h-5 text-primary" />,
